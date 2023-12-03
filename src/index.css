@@ -1,0 +1,151 @@
+.information {
+  animation: slide-in 1s ease;
+}
+
+.typewritter {
+  color: #ff4d4d;
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.info-text {
+  font-size: x-large;
+  color: #ffecda;
+}
+
+.intro {
+  text-align: justify;
+}
+
+.introw {
+  margin-top: 150px;
+}
+
+.circle {
+  width: 300px;
+  height: 500px;
+  border-radius: 199px 199px 199px 199px;
+  -webkit-border-radius: 199px 199px 199px 199px;
+  -moz-border-radius: 199px 199px 199px 199px;
+  overflow: hidden;
+  position: relative;
+  animation: slide-in 1s ease;
+}
+
+.circle img {
+  transform: scale(2.2);
+}
+
+/* @keyframes morph {
+  0%,
+  100% {
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+  }
+  34% {
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+  }
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+  }
+} */
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.socials > div img {
+  width: 40px;
+  height: 40px;
+}
+
+.glass-morphism {
+  padding: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  background-color: #292e3b;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+  margin-bottom: 50px;
+  text-align: justify;
+  color: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.info-me {
+  color: #ffecda;
+  font-size: medium;
+}
+
+.about-container {
+  margin-top: 300px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #ff4d4d;
+}
+
+.intorduction {
+  margin-bottom: 100px;
+}
+
+.horizontal-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  height: 2px;
+  background-color: #ffffff;
+  width: 100px;
+}
+
+.text {
+  font-weight: bold;
+  color: #ffecda;
+}
+
+section {
+  scroll-margin-top: 60px;
+}
