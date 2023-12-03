@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../../index.css";
-import HomeNav from "../navigation/navbar";
+import HomeNav from "../Navigation/Navbar";
 import IntroCard from "../IntroCard/Introduction";
 import AboutMyself from "../AboutComponent/AboutMe";
 import TechnicalSkills from "../Skills/TechStack";
