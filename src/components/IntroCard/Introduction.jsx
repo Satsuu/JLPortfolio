@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Typewriter from "typewriter-effect/dist/core";
-import HomeNav from "../navigation/navbar";
 import "../../index.css";
 import Tooltip from "@mui/material/Tooltip";
 import Zoom from "@mui/material/Zoom";
