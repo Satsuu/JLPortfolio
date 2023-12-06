@@ -60,15 +60,12 @@ const FreelanceAndProExp = () => {
             <div className="line ms-2"></div>
           </div>
         </div>
-        <Col className="d-flex align-items-center justify-content-center mt-5">
-          <Card className="glass-morphism mx-auto">
+        <Col xs={12} className="mt-5">
+          <Card className="glass-morphism">
             <Card.Body>
               <Row>
                 {/* Freelance Projects */}
-                <Col
-                  xs={6}
-                  className="d-flex align-items-center justify-content-start"
-                >
+                <Col xs={12} md={6} className="mb-3">
                   <div>
                     <h4 className="text-white mb-3 text-center">
                       Freelance Project
@@ -105,7 +102,7 @@ const FreelanceAndProExp = () => {
                 </Col>
 
                 {/* Professional Projects */}
-                <Col xs={6} className="d-flex  justify-content-end">
+                <Col xs={12} md={6} className="mb-3">
                   <div>
                     <h4 className="text-white mb-3 text-center">
                       Professional Project

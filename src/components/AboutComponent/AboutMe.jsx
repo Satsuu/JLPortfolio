@@ -3,6 +3,10 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import "../../index.css";
 
 const AboutMyself = () => {
+  const handleDownloadResume = () => {
+    const resumeUrl = "/documents/resume.pdf";
+    window.open(resumeUrl, "_blank");
+  };
   return (
     <Container
       fluid
@@ -22,11 +26,11 @@ const AboutMyself = () => {
           <Row className="d-flex justify-content-center align-items-center">
             <Col lg={4} md={4} sm={8}>
               <Row className="d-flex justify-content-center align-items-center">
-                <Col>
+                <Col className="d-flex justify-content-center">
                   <img
                     src="myself2.png"
                     alt="James"
-                    className="img-fluid mb-5 ms-5"
+                    className="img-fluid mb-5 "
                     style={{ height: "300px" }}
                   />
                 </Col>
@@ -35,6 +39,7 @@ const AboutMyself = () => {
                 <button
                   className="btn text-white"
                   style={{ backgroundColor: "#ff4d4d" }}
+                  onClick={handleDownloadResume}
                 >
                   Download Resume
                 </button>
