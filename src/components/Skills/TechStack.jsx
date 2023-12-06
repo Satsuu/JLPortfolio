@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import "../../index.css";
+import FreelanceExp from "./Freelance";
 
 const TechnicalSkills = () => {
   const techStack = [
@@ -73,6 +74,7 @@ const TechnicalSkills = () => {
             </Card.Body>
           </Card>
         </Col>
+        <FreelanceExp />
       </Row>
     </Container>
   );

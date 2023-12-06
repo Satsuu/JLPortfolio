@@ -109,6 +109,18 @@
   -webkit-background-clip: text;
 }
 
+.glass {
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  background-color: #292e3b;
+  margin-bottom: 50px;
+  text-align: justify;
+  color: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 .info-me {
   color: #ffecda;
   font-size: medium;
