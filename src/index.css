@@ -97,11 +97,11 @@
 }
 
 .glass-morphism {
-  padding: 5px;
+  padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 20px;
   background-color: #292e3b;
-  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -5px -5px 10px rgb(60, 60, 60);
   margin-bottom: 50px;
   text-align: justify;
   color: white;
@@ -131,7 +131,7 @@
 }
 
 .title {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bolder;
   color: #ff4d4d;
 }
@@ -160,4 +160,15 @@
 
 section {
   scroll-margin-top: 60px;
+}
+
+/* index.css or your custom CSS file */
+.icon-container {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.icon-container:hover {
+  transform: scale(1.2); /* Increase the scale factor as needed */
 }

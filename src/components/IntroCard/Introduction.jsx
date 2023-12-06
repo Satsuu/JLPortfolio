@@ -58,7 +58,7 @@ const IntroCard = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="indeed.png" alt="Indeed" />
+                  <img className="me-2" src="indeed.png" alt="Indeed" />
                 </a>
               </Tooltip>
 
@@ -73,7 +73,12 @@ const IntroCard = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="github.png" alt="Github" />
+                  <img
+                    className="me-2"
+                    src="github.png"
+                    alt="Github"
+                    style={{ width: "35px", height: "35px" }}
+                  />
                 </a>
               </Tooltip>
               <Tooltip
@@ -95,7 +100,7 @@ const IntroCard = () => {
         </Col>
         <Col xs={10} md={6} className="d-flex justify-content-end introw">
           <div className="circle">
-            <img src="myself.png" alt="James" className="img-fluid" />
+            <img src="myself.png" alt="James" className="img-fluid me-2" />
           </div>
         </Col>
       </Row>

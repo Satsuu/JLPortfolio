@@ -5,6 +5,7 @@ import HomeNav from "../Navigation/Navbar";
 import IntroCard from "../IntroCard/Introduction";
 import AboutMyself from "../AboutComponent/AboutMe";
 import TechnicalSkills from "../Skills/TechStack";
+import FreelanceAndProExp from "../Projects/ProjectExp";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,9 @@ const HomePage = () => {
         </section>
         <section id="skills">
           <TechnicalSkills />
+        </section>
+        <section id="projects">
+          <FreelanceAndProExp />
         </section>
       </Container>
     </div>

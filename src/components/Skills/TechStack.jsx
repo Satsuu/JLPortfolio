@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import "../../index.css";
-import FreelanceExp from "./Freelance";
 
 const TechnicalSkills = () => {
   const techStack = [
@@ -33,7 +32,6 @@ const TechnicalSkills = () => {
     { label: "Photoshop", icon: "photoshop.png" },
   ];
 
-  // Set the number of columns per row
   const columnsPerRow = 6;
 
   return (
@@ -46,35 +44,29 @@ const TechnicalSkills = () => {
           <b className="title">Tech Stack</b>
           <div className="horizontal-line mx-auto">
             <div className="line me-2"></div>
-            <div className="text">&</div>
+            <div className="text">What do I use</div>
             <div className="line ms-2"></div>
           </div>
-          <b className="text">Projects</b>
         </div>
 
         <Col className="d-flex align-items-center justify-content-center mt-5">
-          <Card className="glass-morphism mx-auto">
-            <Card.Body>
-              <Row className="d-flex justify-content-center align-items-center">
-                {techStack.map(({ label, icon }, index) => (
-                  <Col
-                    key={index}
-                    lg={12 / columnsPerRow}
-                    md={12 / columnsPerRow}
-                    sm={12}
-                    className="text-center"
-                  >
-                    <Image src={icon} alt={`icon-${index}`} />
-                    <p className="mt-3" style={{ color: "#ffecda" }}>
-                      {label}
-                    </p>
-                  </Col>
-                ))}
-              </Row>
-            </Card.Body>
-          </Card>
+          <Row className="d-flex justify-content-center align-items-center">
+            {techStack.map(({ label, icon }, index) => (
+              <Col
+                key={index}
+                lg={12 / columnsPerRow}
+                md={12 / columnsPerRow}
+                sm={12}
+                className="text-center icon-container" // Add the new class here
+              >
+                <Image src={icon} alt={`icon-${index}`} />
+                <p className="mt-3" style={{ color: "#ffecda" }}>
+                  {label}
+                </p>
+              </Col>
+            ))}
+          </Row>
         </Col>
-        <FreelanceExp />
       </Row>
     </Container>
   );
