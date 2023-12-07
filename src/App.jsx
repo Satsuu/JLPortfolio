@@ -8,6 +8,7 @@ import IntroCard from "./components/IntroCard/Introduction";
 import AboutMyself from "./components/AboutComponent/AboutMe";
 import TechnicalSkills from "./components/Skills/TechStack";
 import FreelanceAndProExp from "./components/Projects/ProjectExp";
+import EmailMe from "./components/Contact/ContactMe";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/AboutMe" element={<AboutMyself />} />
           <Route path="/TechStack" element={<TechnicalSkills />} />
           <Route path="/Projects" element={<FreelanceAndProExp />} />
+          <Route path="/Contact" element={<EmailMe />} />
         </Routes>
       </main>
     </Router>

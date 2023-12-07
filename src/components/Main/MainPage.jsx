@@ -6,6 +6,8 @@ import IntroCard from "../IntroCard/Introduction";
 import AboutMyself from "../AboutComponent/AboutMe";
 import TechnicalSkills from "../Skills/TechStack";
 import FreelanceAndProExp from "../Projects/ProjectExp";
+import EmailMe from "../Contact/ContactMe";
+import Footer from "../Footer/FooterPage";
 
 const HomePage = () => {
   return (
@@ -24,7 +26,11 @@ const HomePage = () => {
         <section id="projects">
           <FreelanceAndProExp />
         </section>
+        <section className="pb-5" id="contact">
+          <EmailMe />
+        </section>
       </Container>
+      <Footer />
     </div>
   );
 };
