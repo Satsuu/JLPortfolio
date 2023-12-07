@@ -63,7 +63,7 @@ const EmailMe = () => {
           style={{ borderLeft: "1px solid #ccc", paddingLeft: "50px" }}
         >
           <div className="vertical-line"></div>
-          <Form className="info-me" name="contact" method="POST" data-netlify>
+          <Form className="info-me" name="contact" method="POST" netlify>
             <Form.Group className="mb-4" controlId="formName">
               <Form.Control
                 type="text"
