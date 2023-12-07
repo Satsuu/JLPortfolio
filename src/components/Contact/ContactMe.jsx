@@ -64,10 +64,10 @@ const EmailMe = () => {
         >
           <div className="vertical-line"></div>
           <Form
-            className="info-me"
             name="contact"
-            method="POST"
+            method="post"
             data-netlify="true"
+            data-netlify-honeypot="bot-field"
           >
             <input type="hidden" name="form-name" value="contact" />
             <Form.Group className="mb-4" controlId="formName">
